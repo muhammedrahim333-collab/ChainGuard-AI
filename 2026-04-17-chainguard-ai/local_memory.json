@@ -1,0 +1,1711 @@
+{
+  "items": [
+    {
+      "type": "retain",
+      "content": "User asked: which supplier is riskiest\nAssistant answered: ChainGuard AI assistant answer: based on the current workspace, tracked suppliers include Providence Textiles, Snow White Woollen Mills, Dharampal Sethi & Company (DPS Spices), Glory Foods. Historical context: No strong historical memory match. If you want a fresh operational answer, run the autonomous cycle and then ask again.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-4bf44105bc for 6 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 624,104.",
+      "context": "ChainGuard run run-4bf44105bc completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-4bf44105bc"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: which supplier is riskiest\nAssistant answered: ChainGuard AI assistant answer: based on the current workspace, tracked suppliers include Providence Textiles, Snow White Woollen Mills, Dharampal Sethi & Company (DPS Spices), Glory Foods. Historical context: No strong historical memory match. If you want a fresh operational answer, run the autonomous cycle and then ask again.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-cbfb20798b for 6 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 624,104.",
+      "context": "ChainGuard run run-cbfb20798b completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-cbfb20798b"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: Which supplier is riskiest\nAssistant answered: The riskiest supplier right now is Vishal Tools & Forgings at 34/100 (healthy). Delay probability is 43% and the estimated profit impact is Rs. 301,860. Main reasons: External news and supplier signals are active.; Logistics environment shows potential delay indicators..",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: What should I do if Ludhiana is blocked\nAssistant answered: Tracked suppliers include Providence Textiles, Snow White Woollen Mills, Dharampal Sethi & Company (DPS Spices), Glory Foods. Historical context: No strong historical memory match.. For a precise operational answer, run the autonomous cycle and then ask again.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-182021e762 for 6 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-e76cebe6fb for 6 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: Strike in Ludhiana. Estimated profit protected: Rs. 871,143.",
+      "context": "ChainGuard run run-182021e762 completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-182021e762"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 44/100 for wool blended yarn. Severity: watch. Estimated profit impact: Rs. 567840.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 44/100 for fancy knitting yarn. Severity: watch. Estimated profit impact: Rs. 483600.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 44/100 for blended spices and seasonings. Severity: watch. Estimated profit impact: Rs. 205920.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 44/100 for namkeen and roasted snacks. Severity: watch. Estimated profit impact: Rs. 231660.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 52/100 for hand tools and forgings. Severity: watch. Estimated profit impact: Rs. 407160.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 44/100 for sports equipment. Severity: watch. Estimated profit impact: Rs. 592800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: Strike in Ludhiana. Estimated profit protected: Rs. 871,143.",
+      "context": "ChainGuard run run-e76cebe6fb completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-e76cebe6fb"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 44/100 for wool blended yarn. Severity: watch. Estimated profit impact: Rs. 567840.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 44/100 for fancy knitting yarn. Severity: watch. Estimated profit impact: Rs. 483600.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 44/100 for blended spices and seasonings. Severity: watch. Estimated profit impact: Rs. 205920.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 44/100 for namkeen and roasted snacks. Severity: watch. Estimated profit impact: Rs. 231660.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 52/100 for hand tools and forgings. Severity: watch. Estimated profit impact: Rs. 407160.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 44/100 for sports equipment. Severity: watch. Estimated profit impact: Rs. 592800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: What should I do if Ludhiana is blocked\nAssistant answered: If Ludhiana is blocked, act fast on Providence Textiles, Snow White Woollen Mills. Right now, Providence Textiles is the most exposed at 44/100. First, confirm dispatch status and ETA within the next few hours. Second, activate backup sourcing outside Ludhiana for yarn or textile inputs. Third, protect 5 to 7 days of buffer stock for critical orders. Fourth, shift shipments through alternate routing via nearby hubs if possible. Fifth, inform customers and internal production teams early so margin damage stays controlled.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: How much profit is at stake?\nAssistant answered: Current projected gross disruption impact across tracked suppliers is about Rs. 2,488,980. The biggest single exposure is Vishal Tools & Forgings at around Rs. 407,160.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: what is the new war update\nAssistant answered: Tracked suppliers include Providence Textiles, Snow White Woollen Mills, Dharampal Sethi & Company (DPS Spices), Glory Foods. Historical context: No strong historical memory match.. For a precise operational answer, run the autonomous cycle and then ask again.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: how does the war impact the trade\nAssistant answered: Current projected gross disruption impact across tracked suppliers is about Rs. 2,488,980. The biggest single exposure is Vishal Tools & Forgings at around Rs. 407,160.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: +why is vishal tools most impacted\nAssistant answered: Current projected gross disruption impact across tracked suppliers is about Rs. 2,488,980. The biggest single exposure is Vishal Tools & Forgings at around Rs. 407,160.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: why is vishal tools most impacted\nAssistant answered: Tracked suppliers include Providence Textiles, Snow White Woollen Mills, Dharampal Sethi & Company (DPS Spices), Glory Foods. Historical context: No strong historical memory match.. For a precise operational answer, run the autonomous cycle and then ask again.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-4a53e534eb for 6 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 624,104.",
+      "context": "ChainGuard run run-4a53e534eb completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-4a53e534eb"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: why is vishal tools most impacted\nAssistant answered: Vishal Tools & Forgings is highly impacted because its current risk score is 34/100 with delay probability 43%. Key reasons are: External news and supplier signals are active.; Logistics environment shows potential delay indicators.; Weather-related disruption chatter is present.. Estimated exposure is around Rs. 301,860.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-a8b5c553b0 for 6 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 624,104.",
+      "context": "ChainGuard run run-a8b5c553b0 completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-a8b5c553b0"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-90a9fe1c10 for 6 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 624,104.",
+      "context": "ChainGuard run run-90a9fe1c10 completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-90a9fe1c10"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-1b1641699d for 6 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 624,104.",
+      "context": "ChainGuard run run-1b1641699d completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-1b1641699d"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-3ac6e33203 for 6 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 624,104.",
+      "context": "ChainGuard run run-3ac6e33203 completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-3ac6e33203"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-12f6372cb2 for 7 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 1,401,104.",
+      "context": "ChainGuard run run-12f6372cb2 completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-12f6372cb2"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier TATA MOTORS in Ludhiana scored 26/100 for Electric Battery. Severity: healthy. Estimated profit impact: Rs. 2220000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-91389015",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: what  profit can i earn in 2 years from tata motors battery business\nAssistant answered: Current projected gross disruption impact across tracked suppliers is about Rs. 4,003,155. The biggest single exposure is Vishal Tools & Forgings at around Rs. 301,860.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-818c50b69c for 6 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 624,104.",
+      "context": "ChainGuard run run-818c50b69c completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-818c50b69c"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: Which supplier is riskiest and why?\nAssistant answered: Vishal Tools & Forgings is highly impacted because its current risk score is 34/100 with delay probability 43%. Key reasons are: External news and supplier signals are active.; Logistics environment shows potential delay indicators.; Weather-related disruption chatter is present.. Estimated exposure is around Rs. 301,860.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: Explain this in simple Hindi\nAssistant answered: Tracked suppliers include Providence Textiles, Snow White Woollen Mills, Dharampal Sethi & Company (DPS Spices), Glory Foods. Historical context: No strong historical memory match.. For a precise operational answer, run the autonomous cycle and then ask again.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: Which supplier is riskiest and why?\n\nAssistant answered: I have not run the autonomous scoring cycle yet, so I do not have a live risk score. As a quick preview, Vishal Tools & Forgings looks most fragile operationally because it has a lead time of 11 days with unit cost around Rs. 780. No strong historical memory match yet. Run the autonomous cycle for a proper risk ranking.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: Explain this in simple Hindi\n\nAssistant answered: Simple Hindi mein: Iska matlab hai ki system keh raha hai ki abhi live risk scoring data ya to run nahi hua hai ya current question ke liye enough fresh result nahi mila. Pehle autonomous cycle chalao, phir system zyada exact batayega ki kaunsa supplier risky hai, kitna nuksan ho sakta hai, aur kya action lena chahiye.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-7822c9b80b for 7 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 1,401,104.",
+      "context": "ChainGuard run run-7822c9b80b completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-7822c9b80b"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier TATA MOTORS in Ludhiana scored 26/100 for Electric Battery. Severity: healthy. Estimated profit impact: Rs. 2220000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-f860ee7c",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: Which supplier is riskiest right now?\n\nAssistant answered: I have not run the autonomous scoring cycle yet, so I do not have a live risk score. As a quick preview, Vishal Tools & Forgings looks most fragile operationally because it has a lead time of 11 days with unit cost around Rs. 780. No strong historical memory match yet. Run the autonomous cycle for a proper risk ranking.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-c5f912eeba for 8 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: Strike in Ludhiana. Estimated profit protected: Rs. 7,423,143.",
+      "context": "ChainGuard run run-c5f912eeba completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-c5f912eeba"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 44/100 for wool blended yarn. Severity: watch. Estimated profit impact: Rs. 567840.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 44/100 for fancy knitting yarn. Severity: watch. Estimated profit impact: Rs. 483600.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 44/100 for blended spices and seasonings. Severity: watch. Estimated profit impact: Rs. 205920.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 44/100 for namkeen and roasted snacks. Severity: watch. Estimated profit impact: Rs. 231660.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 52/100 for hand tools and forgings. Severity: watch. Estimated profit impact: Rs. 407160.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 44/100 for sports equipment. Severity: watch. Estimated profit impact: Rs. 592800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier TATA MOTORS in Ludhiana scored 44/100 for Electric battery. Severity: watch. Estimated profit impact: Rs. 3120000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-825a56ff",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier ASUS  in Ludhiana scored 44/100 for Laptops. Severity: watch. Estimated profit impact: Rs. 15600000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-5b986455",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: Which supplier is riskiest right now?\nAssistant answered: The riskiest supplier right now is Vishal Tools & Forgings at 52/100 (watch). Delay probability is 58% and the estimated profit impact is Rs. 407,160. Main reasons: External news and supplier signals are active.; Logistics environment shows potential delay indicators..",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-38dcb5e39e for 8 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 5,286,104.",
+      "context": "ChainGuard run run-38dcb5e39e completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-38dcb5e39e"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier TATA MOTORS in Ludhiana scored 26/100 for Electric battery. Severity: healthy. Estimated profit impact: Rs. 2220000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-825a56ff",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier ASUS  in Ludhiana scored 26/100 for Laptops. Severity: healthy. Estimated profit impact: Rs. 11100000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-5b986455",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: Which supplier is riskiest right now?\n\nAssistant answered: The riskiest supplier right now is Vishal Tools & Forgings at 34/100 (healthy). Delay probability is 43% and the estimated profit impact is Rs. 301,860. Main reasons: External news and supplier signals are active.; Logistics environment shows potential delay indicators..",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: Why is Vishal Tools & Forgings most impacted?\n\nAssistant answered: Vishal Tools & Forgings is highly impacted because its current risk score is 34/100 with delay probability 43%. Key reasons are: External news and supplier signals are active.; Logistics environment shows potential delay indicators.; Weather-related disruption chatter is present.. Estimated exposure is around Rs. 301,860.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-90a58e8ab2 for 8 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 5,286,104.",
+      "context": "ChainGuard run run-90a58e8ab2 completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-90a58e8ab2"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier TATA MOTORS in Ludhiana scored 26/100 for Electric battery. Severity: healthy. Estimated profit impact: Rs. 2220000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-825a56ff",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier ASUS  in Ludhiana scored 26/100 for Laptops. Severity: healthy. Estimated profit impact: Rs. 11100000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-5b986455",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: How much profit is at stake?\n\nAssistant answered: Current projected gross disruption impact across tracked suppliers is about Rs. 15,103,155. The biggest single exposure is Vishal Tools & Forgings at around Rs. 301,860.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: How much profit is at stake?\n\nAssistant answered: Current projected gross disruption impact across tracked suppliers is about Rs. 15,103,155. The biggest single exposure is Vishal Tools & Forgings at around Rs. 301,860.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-2c786d30fe for 8 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: Strike in Ludhiana. Estimated profit protected: Rs. 7,423,143.",
+      "context": "ChainGuard run run-2c786d30fe completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-2c786d30fe"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 44/100 for wool blended yarn. Severity: watch. Estimated profit impact: Rs. 567840.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 44/100 for fancy knitting yarn. Severity: watch. Estimated profit impact: Rs. 483600.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 44/100 for blended spices and seasonings. Severity: watch. Estimated profit impact: Rs. 205920.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 44/100 for namkeen and roasted snacks. Severity: watch. Estimated profit impact: Rs. 231660.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 52/100 for hand tools and forgings. Severity: watch. Estimated profit impact: Rs. 407160.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 44/100 for sports equipment. Severity: watch. Estimated profit impact: Rs. 592800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier TATA MOTORS in Ludhiana scored 44/100 for Electric battery. Severity: watch. Estimated profit impact: Rs. 3120000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-825a56ff",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier ASUS  in Ludhiana scored 44/100 for Laptops. Severity: watch. Estimated profit impact: Rs. 15600000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-5b986455",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: what would happen if there is a strike in ludhiana\nAssistant answered: If Ludhiana is blocked, act fast on Providence Textiles, Snow White Woollen Mills, TATA MOTORS, ASUS . Right now, Providence Textiles is the most exposed at 44/100. First, confirm dispatch status and ETA within the next few hours. Second, activate backup sourcing outside Ludhiana for yarn or textile inputs. Third, protect 5 to 7 days of buffer stock for critical orders. Fourth, shift shipments through alternate routing via nearby hubs if possible. Fifth, inform customers and internal production teams early so margin damage stays controlled.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI started run run-5037f761bd for 9 suppliers.",
+      "context": "autonomous cycle start",
+      "tags": [
+        "source:langgraph",
+        "stage:orchestrator"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "ChainGuard AI completed the cycle. Risk hot spots were reviewed for the tracked suppliers. Disruption focus: routine monitoring. Estimated profit protected: Rs. 5,363,804.",
+      "context": "ChainGuard run run-5037f761bd completed",
+      "tags": [
+        "source:langgraph",
+        "stage:final",
+        "run:run-5037f761bd"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Providence Textiles in Ludhiana scored 26/100 for wool blended yarn. Severity: healthy. Estimated profit impact: Rs. 404040.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-prov-01",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Snow White Woollen Mills in Ludhiana scored 26/100 for fancy knitting yarn. Severity: healthy. Estimated profit impact: Rs. 344100.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-ldh-swm-02",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Dharampal Sethi & Company (DPS Spices) in Amritsar scored 26/100 for blended spices and seasonings. Severity: healthy. Estimated profit impact: Rs. 146520.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-asr-dps-03",
+        "amritsar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Glory Foods in Jalandhar scored 26/100 for namkeen and roasted snacks. Severity: healthy. Estimated profit impact: Rs. 164835.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-glory-04",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Vishal Tools & Forgings in Jalandhar scored 34/100 for hand tools and forgings. Severity: healthy. Estimated profit impact: Rs. 301860.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-vishal-05",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier Prospo India in Jalandhar scored 26/100 for sports equipment. Severity: healthy. Estimated profit impact: Rs. 421800.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-jal-prospo-06",
+        "jalandhar"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier TATA MOTORS in Ludhiana scored 26/100 for Electric battery. Severity: healthy. Estimated profit impact: Rs. 2220000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-825a56ff",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier ASUS  in Ludhiana scored 26/100 for Laptops. Severity: healthy. Estimated profit impact: Rs. 11100000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-5b986455",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "Supplier ZEBROTRONICS in Ludhiana scored 26/100 for Headphones. Severity: healthy. Estimated profit impact: Rs. 222000.",
+      "context": "supplier risk assessment",
+      "tags": [
+        "supplier",
+        "sup-6131d276",
+        "ludhiana"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: which supplier is riskiest ?\nAssistant answered: The riskiest supplier right now is Vishal Tools & Forgings at 34/100 (healthy). Delay probability is 43% and the estimated profit impact is Rs. 301,860. Main reasons: External news and supplier signals are active.; Logistics environment shows potential delay indicators..",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: what should i do if there is a strike in ludhiana\nAssistant answered: If Ludhiana is blocked, act fast on Providence Textiles, Snow White Woollen Mills, TATA MOTORS, ASUS , ZEBROTRONICS. First, confirm dispatch status and ETA within the next few hours. Second, activate backup sourcing outside Ludhiana for yarn or textile inputs. Third, protect 5 to 7 days of buffer stock for critical orders. Fourth, shift shipments through alternate routing via nearby hubs if possible. Fifth, inform customers and internal production teams early so margin damage stays controlled.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    },
+    {
+      "type": "retain",
+      "content": "User asked: how much profit is at stake\nAssistant answered: Current projected gross disruption impact across tracked suppliers is about Rs. 15,325,155. The biggest single exposure is Vishal Tools & Forgings at around Rs. 301,860.",
+      "context": "streamlit chat interaction",
+      "tags": [
+        "source:chat",
+        "app:chainguard-ai"
+      ]
+    }
+  ]
+}
